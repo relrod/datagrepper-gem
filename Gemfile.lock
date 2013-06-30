@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    datagrepper (1.0.0)
+      httparty
+      time-lord
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.11.0)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
+    multi_json (1.7.7)
+    multi_xml (0.5.4)
+    time-lord (1.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  datagrepper!
