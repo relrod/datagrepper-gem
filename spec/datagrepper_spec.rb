@@ -6,7 +6,7 @@ describe Datagrepper do
     @dg = Datagrepper.new
   end
 
-  it 'lists messages over the past 4 days' do
+  it 'lists messages over the past 7 days' do
     res = @dg.query :delta => 1.week, :user => ['codeblock', 'kevin', 'toshio', 'ralph']
     expect(res['raw_messages'].class).to eq(Array)
     expect(res['raw_messages'].length).to be > 0
